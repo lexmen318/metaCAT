@@ -1,4 +1,4 @@
-[![metaCAT](images/new_logo_cap.png)]
+![metaCAT](images/new_logo_cap.png)
 
 ## metaCAT Overview
 metaCAT is an open-source web-based annotation tool designed specifically for developing task-oriented dialogue data. metaCAT extends LIDA by contributing additional key useful features including:
@@ -8,6 +8,9 @@ metaCAT is an open-source web-based annotation tool designed specifically for de
 3. ASR paraphrasing to speed up an annotator's data input process and increase the diversity of utterances.
 
 We've released a short video clip for metaCAT at https://youtu.be/07_PWD4_c4E.
+
+## Main GUI
+![main_interface](images/main_interface.png)
 
 ## Metadata
 Metadata is a segment of data used to describe the dialogue domain, intention, and slot annotation system. It is stored in JSON format and determines the optional service domains on the user side and system side, slots in each service domain, valid slot-values in each slot, and allowed intents.
