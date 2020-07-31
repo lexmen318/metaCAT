@@ -5,8 +5,7 @@ metaCAT is an open-source web-based annotation tool designed specifically for de
 2. real-time annotation constraint-checking to ensure data quality;
 3. ASR paraphrasing to speed up an annotator's data input process and increase the diversity of utterances.
 
-We'll release our codes here soon. 
-And we've released a short video clip for metaCAT at https://youtu.be/07_PWD4_c4E.
+We've released a short video clip for metaCAT at https://youtu.be/07_PWD4_c4E.
 
 ## Metadata
 Metadata is a segment of data used to describe the dialogue domain, intention, and slot annotation system. It is stored in JSON format and determines the optional service domains on the user side and system side, slots in each service domain, valid slot-values in each slot, and allowed intents.
