@@ -1,6 +1,8 @@
 ![metaCAT](images/new_logo_cap.png)
 
-## metaCAT Overview
+# metaCAT: A Metadata-based Task-oriented Chatbot Annotation Tool
+
+## Overview
 metaCAT is an open-source web-based annotation tool designed specifically for developing task-oriented dialogue data. metaCAT extends LIDA by contributing additional key useful features including:
 
 1. comprehensive metadata annotation coverage to the domain, intent and span information w.r.t. each dialogue turn;
