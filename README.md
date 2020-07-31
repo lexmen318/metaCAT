@@ -1,3 +1,5 @@
+[![metaCAT](images/new_logo_cap.png)]
+
 ## metaCAT Overview
 metaCAT is an open-source web-based annotation tool designed specifically for developing task-oriented dialogue data. metaCAT extends LIDA by contributing additional key useful features including:
 
