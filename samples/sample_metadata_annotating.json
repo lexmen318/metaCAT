@@ -1,0 +1,1665 @@
+{
+  "category": "annotating",
+  "metadata_name": "MULTIWOZ",
+  "metadata_value": {
+    "general": {
+      "usr": [
+        "greet",
+        "thank",
+        "bye"
+      ],
+      "sys": [
+        "greet",
+        "reqmore",
+        "welcome",
+        "bye"
+      ]
+    },
+    "domain": {
+      "usr": [
+        "Hotel",
+        "Restaurant",
+        "Attraction",
+        "Police",
+        "Hospital",
+        "Train",
+        "Taxi"
+      ],
+      "sys": [
+        "Booking",
+        "Hotel",
+        "Restaurant",
+        "Attraction",
+        "Police",
+        "Hospital",
+        "Train",
+        "Taxi"
+      ]
+    },
+    "intent": {
+      "usr": {
+        "Police": [
+          "Inform",
+          "Request"
+        ],
+        "Hospital": [
+          "Inform",
+          "Request"
+        ],
+        "Hotel": [
+          "Inform",
+          "Request"
+        ],
+        "Restaurant": [
+          "Inform",
+          "Request"
+        ],
+        "Attraction": [
+          "Inform",
+          "Request"
+        ],
+        "Taxi": [
+          "Inform",
+          "Request"
+        ],
+        "Train": [
+          "Inform",
+          "Request"
+        ]
+      },
+      "sys": {
+        "Police": [
+          "Inform",
+          "Request"
+        ],
+        "Hospital": [
+          "Inform",
+          "Request"
+        ],
+        "Hotel": [
+          "Inform",
+          "Request",
+          "Recommend",
+          "Select",
+          "NoOffer"
+        ],
+        "Restaurant": [
+          "Inform",
+          "Request",
+          "Recommend",
+          "Select",
+          "NoOffer"
+        ],
+        "Attraction": [
+          "Inform",
+          "Request",
+          "Recommend",
+          "Select",
+          "NoOffer"
+        ],
+        "Taxi": [
+          "Inform",
+          "Request"
+        ],
+        "Train": [
+          "Inform",
+          "Request",
+          "Recommend",
+          "Select",
+          "NoOffer",
+          "OfferBook",
+          "OfferBooked"
+        ],
+        "Booking": [
+          "Inform",
+          "Book",
+          "NoBook",
+          "Request"
+        ]
+      }
+    },
+    "usr_slot": {
+      "Police": [
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ],
+      "Hospital": [
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Department",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ],
+      "Taxi": [
+        {
+          "slot_name": "Car",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Leave",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Arrive",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Depart",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Dest",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ],
+      "Train": [
+        {
+          "slot_name": "Id",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Day",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "People",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Leave",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Arrive",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Depart",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Dest",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Time",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Ticket",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Ref",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ],
+      "Restaurant": [
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Food",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Price",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Area",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Day",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "People",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Time",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Ref",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ],
+      "Hotel": [
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Type",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Price",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Area",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Stars",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Internet",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "yes",
+            "no",
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Parking",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "yes",
+            "no",
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Day",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "People",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Stay",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Ref",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ],
+      "Attraction": [
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ]
+        },
+        {
+          "slot_name": "Type",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Fee",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Area",
+          "slot_type": "string",
+          "slot_value": [
+            "dontcare",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ]
+    },
+    "sys_slot": {
+      "Booking": [
+        {
+          "slot_name": "Ref",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Book"
+          ]
+        },
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "Book"
+          ]
+        },
+        {
+          "slot_name": "Day",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "Book",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Stay",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "Book",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "People",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "Book",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Time",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "Book",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "Book"
+          ]
+        }
+      ],
+      "Police": [
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ],
+      "Hospital": [
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Department",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ],
+      "Taxi": [
+        {
+          "slot_name": "Car",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "Leave",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Arrive",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Depart",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Dest",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform"
+          ]
+        }
+      ],
+      "Train": [
+        {
+          "slot_name": "Choice",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Select"
+          ]
+        },
+        {
+          "slot_name": "Id",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "OfferBook",
+            "OfferBooked",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Day",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "OfferBook",
+            "OfferBooked",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "People",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "OfferBook",
+            "OfferBooked",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Leave",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "OfferBook",
+            "OfferBooked",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Arrive",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "OfferBook",
+            "OfferBooked",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Depart",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "OfferBook",
+            "OfferBooked",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Dest",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "OfferBook",
+            "OfferBooked",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Time",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Select"
+          ]
+        },
+        {
+          "slot_name": "Ticket",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Select"
+          ]
+        },
+        {
+          "slot_name": "Ref",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "OfferBooked"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoBook",
+            "OfferBook",
+            "OfferBooked"
+          ]
+        }
+      ],
+      "Restaurant": [
+        {
+          "slot_name": "Choice",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend",
+            "Select"
+          ]
+        },
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Food",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Price",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Area",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend"
+          ]
+        },
+        {
+          "slot_name": "Day",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "People",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Time",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Ref",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer"
+          ]
+        }
+      ],
+      "Hotel": [
+        {
+          "slot_name": "Choice",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend",
+            "Select"
+          ]
+        },
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Type",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Price",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Area",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Stars",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Internet",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "yes",
+            "no",
+            "unknown",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Parking",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "yes",
+            "no",
+            "unknown",
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend"
+          ]
+        },
+        {
+          "slot_name": "Day",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "People",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ]
+        },
+        {
+          "slot_name": "Stay",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Ref",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer"
+          ]
+        }
+      ],
+      "Attraction": [
+        {
+          "slot_name": "Choice",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend",
+            "Select"
+          ]
+        },
+        {
+          "slot_name": "Name",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Type",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Fee",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Area",
+          "slot_type": "string",
+          "slot_value": [
+            "?"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer",
+            "Recommend",
+            "Select",
+            "Request"
+          ]
+        },
+        {
+          "slot_name": "Phone",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend"
+          ]
+        },
+        {
+          "slot_name": "Post",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend"
+          ]
+        },
+        {
+          "slot_name": "Addr",
+          "slot_type": "string",
+          "slot_value": [],
+          "slot_intent": [
+            "Inform",
+            "Recommend"
+          ]
+        },
+        {
+          "slot_name": "none",
+          "slot_type": "enumeration",
+          "slot_value": [
+            "none"
+          ],
+          "slot_intent": [
+            "Inform",
+            "NoOffer"
+          ]
+        }
+      ]
+    }
+  }
+}

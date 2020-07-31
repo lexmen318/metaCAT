@@ -1,0 +1,194 @@
+# Chinese (Simplified, China) translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-07-14 15:41+0800\n"
+"PO-Revision-Date: 2020-07-10 11:55+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: lida_server_mongo.py:90
+msgid "Successfully update."
+msgstr "更新成功。"
+
+#: lida_server_mongo.py:98
+msgid "CurrentLanguage"
+msgstr "当前语言"
+
+#: lida_server_mongo.py:99
+#, python-format
+msgid "%(num)d formattedLanguageExample"
+msgid_plural "%(num)d anotherFormattedLanguageExample"
+msgstr[0] "%(num)d 格式化语言字符串"
+
+#: lida_server_mongo.py:139
+msgid "SuccessfullyUpdate."
+msgstr "更新成功。"
+
+#: annotating/annotating_validator.py:109
+msgid "errorNullDomain"
+msgstr "存在多余无标注领域"
+
+#: annotating/annotating_validator.py:111
+msgid "errorEnumWithSpan"
+msgstr "存在带位置信息的枚举型槽位"
+
+#: annotating/annotating_validator.py:113
+msgid "errorWrongIntent"
+msgstr "存在错误的槽位归属意图"
+
+#: annotating/annotating_validator.py:115 paraphrasing/paraphrasing_validator.py:165
+msgid "errorWrongSpan"
+msgstr "存在槽值与位置不匹配的槽位"
+
+#: annotating/annotating_validator.py:117 paraphrasing/paraphrasing_validator.py:167
+msgid "errorRepeatSpan"
+msgstr "存在槽值位置重叠的槽位"
+
+#: annotating/annotating_validator.py:119
+msgid "errorRepeatSlot"
+msgstr "存在重复的槽位"
+
+#: annotating/annotating_validator.py:121
+msgid "errorRepeatValue"
+msgstr "存在重复的槽值"
+
+#: annotating/annotating_validator.py:123
+msgid "errorEnumNoStr"
+msgstr "*-enum与*-str需共存"
+
+#: annotating/annotating_validator.py:159 paraphrasing/paraphrasing_validator.py:191
+msgid "partTurnError"
+msgstr "存在多余槽值的槽位"
+
+#: blueprints/audio_recognition.py:62
+msgid "ASRServiceFailed"
+msgstr "语音服务调用不成功"
+
+#: blueprints/audio_recognition.py:79
+msgid "NothingRecognized"
+msgstr "没有识别到语音中的内容"
+
+#: blueprints/auth.py:44
+msgid "msgUserLogout"
+msgstr "用户登出"
+
+#: blueprints/auth.py:76
+msgid "msgSettingSuccess"
+msgstr "设置成功"
+
+#: blueprints/auth.py:79
+msgid "msgConfirmPasswordError"
+msgstr "密码与确认密码不一致"
+
+#: blueprints/sys_admin.py:41
+msgid "funcUpdateDataVersion"
+msgstr "更新数据版本"
+
+#: blueprints/sys_admin.py:45
+msgid "funcConsistencyCheck"
+msgstr "数据完整性检测"
+
+#: blueprints/sys_admin.py:49
+msgid "funcUpdateParaphrasingRealValue"
+msgstr "转换paraphrasing中槽位实际值"
+
+#: blueprints/sys_admin.py:62
+msgid "funcRemoveAnnotating"
+msgstr "清除annotating数据"
+
+#: blueprints/sys_admin.py:66
+msgid "funcRemoveParaphrasing"
+msgstr "清除paraphrasing数据"
+
+#: blueprints/sys_mgmt.py:69
+msgid "msgInitDataSuccess"
+msgstr "系统数据初始化成功"
+
+#: blueprints/sys_mgmt.py:92
+msgid "msgMetadataExisting"
+msgstr "元数据已存在"
+
+#: blueprints/sys_mgmt.py:101
+msgid "msgMetadataUploaded"
+msgstr "元数据上传成功"
+
+#: blueprints/sys_mgmt.py:137
+msgid "msgMANIFESTNotExists"
+msgstr "[MANIFEST.json]不存在，无法确定BatchCategory"
+
+#: blueprints/sys_mgmt.py:145
+msgid "msgBatchCategoryNotDefined"
+msgstr "BatchCategory未定义"
+
+#: blueprints/sys_mgmt.py:152
+msgid "msgMetadataNameNotDefined"
+msgstr "MetadataName未定义"
+
+#: blueprints/sys_mgmt.py:167
+msgid "msgMetadataNotExisting:[{0}][{1}]"
+msgstr "Metadata不存在:[{0}][{1}]"
+
+#: blueprints/sys_mgmt.py:232
+msgid "msgErrorUploadBatch"
+msgstr "批次文件上传过程中存在错误"
+
+#: blueprints/sys_mgmt.py:240
+msgid "msgSuccessUploadBatch"
+msgstr "批次文件上传成功"
+
+#: blueprints/sys_mgmt.py:302
+msgid "msgErrorFileDeleted"
+msgstr "错误文件删除成功"
+
+#: blueprints/sys_mgmt.py:470
+msgid "msgErrorAllcoateBatch"
+msgstr "批次分配过程中存在错误"
+
+#: blueprints/sys_mgmt.py:475
+msgid "msgSuccessAllocateBatch"
+msgstr "批次分配成功"
+
+#: paraphrasing/paraphrasing_validator.py:71
+msgid "errorNoParaphrasing"
+msgstr "复述文本内容缺失"
+
+#: paraphrasing/paraphrasing_validator.py:73
+msgid "errorIncompleteParaphrasing"
+msgstr "复述文本内容不完整"
+
+#: paraphrasing/paraphrasing_validator.py:77
+msgid "errorParaphrasingLackChange"
+msgstr "复述文本内容缺乏变化"
+
+#: paraphrasing/paraphrasing_validator.py:159
+msgid "errorNotAnnotatedSlot"
+msgstr "存在缺失标注的槽位"
+
+#: paraphrasing/paraphrasing_validator.py:161
+msgid "errorNoSlotValue"
+msgstr "存在缺少槽值的槽位"
+
+#: paraphrasing/paraphrasing_validator.py:163
+msgid "errorNoRealValue"
+msgstr "存在缺失实际值的槽位"
+
+#: paraphrasing/paraphrasing_validator.py:169
+msgid "errorExtraSlot"
+msgstr "存在多余的槽位"
+
+#: paraphrasing/paraphrasing_validator.py:171
+msgid "errorExtraSlotValue"
+msgstr "存在多余的槽值"
+

@@ -1,0 +1,19 @@
+use admin
+db.createUser({user:"admin",pwd:"1qasw23ed",roles:["root"]})
+db.auth("admin", "1qasw23ed")
+db.test.insert({"name":"管理员DB"})
+
+use metacat
+db.createUser({user:'metacat',pwd:'metacat',roles:[{role:"readWrite",db:"metacat"}]})
+db.auth("metacat", "metacat")
+db.metacat.insert({"name":"metaCAT标注工具"})
+
+use metacat_dev
+db.createUser({user:'metacat_dev',pwd:'metacat_dev',roles:[{role:"readWrite",db:"metacat_dev"}]})
+db.auth("metacat_dev", "metacat_dev")
+db.metacat.insert({"name":"metaCAT标注工具开发环境"})
+
+use metacat_uat
+db.createUser({user:'metacat_uat',pwd:'metacat_uat',roles:[{role:"readWrite",db:"metacat_uat"}]})
+db.auth("metacat_uat", "metacat_uat")
+db.metacat.insert({"name":"metaCAT标注工具录屏环境"})

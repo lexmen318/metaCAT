@@ -1,0 +1,8 @@
+*.pyc
+*.out
+__pycache__
+.idea
+*/templates/*
+/templates/*
+*/static/*
+/static/*

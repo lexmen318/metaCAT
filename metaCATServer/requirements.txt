@@ -1,0 +1,11 @@
+Flask
+Flask-Cors
+Flask-Caching
+PyMongo==3.10.1
+flask-pymongo==2.3.0
+requests==2.22.0
+requests-toolbelt==0.9.1
+pyopenssl==19.1.0
+chinese2digits==3.0.1
+recognizers-text-suite==1.0.2a2
+Flask-Babel==1.0.0

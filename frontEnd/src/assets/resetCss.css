@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+/* element 按钮组件样式重置 */
+.el-button{
+  height: 35px;
+  line-height: 0;
+}
+
+input {
+  outline:none;
+  background:transparent;
+  border:none;
+  outline:medium;
+}
+
+.el-popper[x-placement^=bottom]{
+  margin-top: 5px;
+}
+.el-autocomplete-suggestion li{
+  line-height: 28px;
+  padding: 0 15px;
+}
+.el-autocomplete-suggestion li:hover{
+  /* color: #3a8ee6; */
+}
+
+/* ::selection{
+  background:transparent;
+}
+::-moz-selection{
+  background:transparent;
+} */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:#c3c7cf;
+  font-size: 14px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:#c3c7cf;
+ font-size: 14px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:#c3c7cf;
+ font-size: 14px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #c3c7cf;
+ font-size: 14px;
+}

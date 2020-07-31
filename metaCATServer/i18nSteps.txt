@@ -1,0 +1,17 @@
+Flask国际化
+
+$ pybabel --list-locales
+
+$ mkdir locale
+$ pybabel extract . -o locale/messages.pot
+$ pybabel init -i locale/messages.pot -d translations -l en_US
+$ pybabel init -i locale/messages.pot -d translations -l zh_CN
+$ pybabel update -i locale/messages.pot -d translations
+$ pybabel compile -d translations
+
+# Test
+# https://localhost:5013/language/en_US
+# https://localhost:5013/language/zh_CN
+https://localhost:5013/language/en
+https://localhost:5013/language/zh
+

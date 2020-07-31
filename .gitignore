@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+.idea
+METACAT_ANNOTATIONS
+/lib
+pyvenv.cfg
+*.log
+server/*.log
+*.out
+data/

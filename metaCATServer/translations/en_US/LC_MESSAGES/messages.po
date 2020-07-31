@@ -1,0 +1,195 @@
+# English (United States) translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-07-14 15:41+0800\n"
+"PO-Revision-Date: 2020-07-10 11:55+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_US\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: lida_server_mongo.py:90
+msgid "Successfully update."
+msgstr "Successfully update."
+
+#: lida_server_mongo.py:98
+msgid "CurrentLanguage"
+msgstr "Current language"
+
+#: lida_server_mongo.py:99
+#, python-format
+msgid "%(num)d formattedLanguageExample"
+msgid_plural "%(num)d anotherFormattedLanguageExample"
+msgstr[0] "%(num)d formatted language string example"
+msgstr[1] "%(num)d another formatted language string example"
+
+#: lida_server_mongo.py:139
+msgid "SuccessfullyUpdate."
+msgstr "Successfully update"
+
+#: annotating/annotating_validator.py:109
+msgid "errorNullDomain"
+msgstr "Domains without slot"
+
+#: annotating/annotating_validator.py:111
+msgid "errorEnumWithSpan"
+msgstr "Enumeration slots with span"
+
+#: annotating/annotating_validator.py:113
+msgid "errorWrongIntent"
+msgstr "Slots with wrong intent"
+
+#: annotating/annotating_validator.py:115 paraphrasing/paraphrasing_validator.py:165
+msgid "errorWrongSpan"
+msgstr "Slots with wrong span"
+
+#: annotating/annotating_validator.py:117 paraphrasing/paraphrasing_validator.py:167
+msgid "errorRepeatSpan"
+msgstr "Slots with repeated span"
+
+#: annotating/annotating_validator.py:119
+msgid "errorRepeatSlot"
+msgstr "Slots repeated"
+
+#: annotating/annotating_validator.py:121
+msgid "errorRepeatValue"
+msgstr "Slot values repeated"
+
+#: annotating/annotating_validator.py:123
+msgid "errorEnumNoStr"
+msgstr "*-enum slots should coexist with *-str slots"
+
+#: annotating/annotating_validator.py:159 paraphrasing/paraphrasing_validator.py:191
+msgid "partTurnError"
+msgstr "Turn partially wrong"
+
+#: blueprints/audio_recognition.py:62
+msgid "ASRServiceFailed"
+msgstr "ASR Service Failed"
+
+#: blueprints/audio_recognition.py:79
+msgid "NothingRecognized"
+msgstr "Nothing recognized"
+
+#: blueprints/auth.py:44
+msgid "msgUserLogout"
+msgstr "User logout"
+
+#: blueprints/auth.py:76
+msgid "msgSettingSuccess"
+msgstr "Setting success"
+
+#: blueprints/auth.py:79
+msgid "msgConfirmPasswordError"
+msgstr "Confirm password error"
+
+#: blueprints/sys_admin.py:41
+msgid "funcUpdateDataVersion"
+msgstr "Update Data Version"
+
+#: blueprints/sys_admin.py:45
+msgid "funcConsistencyCheck"
+msgstr "Consistency Check"
+
+#: blueprints/sys_admin.py:49
+msgid "funcUpdateParaphrasingRealValue"
+msgstr "UpdateparaphrasingRealValue"
+
+#: blueprints/sys_admin.py:62
+msgid "funcRemoveAnnotating"
+msgstr "Remove Annotating"
+
+#: blueprints/sys_admin.py:66
+msgid "funcRemoveParaphrasing"
+msgstr "Remove Paraphrasing"
+
+#: blueprints/sys_mgmt.py:69
+msgid "msgInitDataSuccess"
+msgstr "Initialize data successfully"
+
+#: blueprints/sys_mgmt.py:92
+msgid "msgMetadataExisting"
+msgstr "Metadata already existing"
+
+#: blueprints/sys_mgmt.py:101
+msgid "msgMetadataUploaded"
+msgstr "Metadata uploaded successfully"
+
+#: blueprints/sys_mgmt.py:137
+msgid "msgMANIFESTNotExists"
+msgstr "MANIFESTN not exist"
+
+#: blueprints/sys_mgmt.py:145
+msgid "msgBatchCategoryNotDefined"
+msgstr "BatchCategory not defined"
+
+#: blueprints/sys_mgmt.py:152
+msgid "msgMetadataNameNotDefined"
+msgstr "MetadataName  not defined"
+
+#: blueprints/sys_mgmt.py:167
+msgid "msgMetadataNotExisting:[{0}][{1}]"
+msgstr "Metadata not existing:[{0}][{1}]"
+
+#: blueprints/sys_mgmt.py:232
+msgid "msgErrorUploadBatch"
+msgstr "Error in uploading batch"
+
+#: blueprints/sys_mgmt.py:240
+msgid "msgSuccessUploadBatch"
+msgstr "Upload batch successfully"
+
+#: blueprints/sys_mgmt.py:302
+msgid "msgErrorFileDeleted"
+msgstr "Error file deleted"
+
+#: blueprints/sys_mgmt.py:470
+msgid "msgErrorAllocateBatch"
+msgstr "Error in allocating batch"
+
+#: blueprints/sys_mgmt.py:475
+msgid "msgSuccessAllocateBatch"
+msgstr "Allocate batch successfully"
+
+#: paraphrasing/paraphrasing_validator.py:71
+msgid "errorNoParaphrasing"
+msgstr "Utterance not paraphrased"
+
+#: paraphrasing/paraphrasing_validator.py:73
+msgid "errorIncompleteParaphrasing"
+msgstr "Incomplete paraphrasing"
+
+#: paraphrasing/paraphrasing_validator.py:77
+msgid "errorParaphrasingLackChange"
+msgstr "Lack of utterance change"
+
+#: paraphrasing/paraphrasing_validator.py:159
+msgid "errorNotAnnotatedSlot"
+msgstr "Slots not annotated"
+
+#: paraphrasing/paraphrasing_validator.py:161
+msgid "errorNoSlotValue"
+msgstr "Slots without value"
+
+#: paraphrasing/paraphrasing_validator.py:163
+msgid "errorNoRealValue"
+msgstr "Lack of real slot-value"
+
+#: paraphrasing/paraphrasing_validator.py:169
+msgid "errorExtraSlot"
+msgstr "Extra slot existing"
+
+#: paraphrasing/paraphrasing_validator.py:171
+msgid "errorExtraSlotValue"
+msgstr "Extra slot value existing"
+
