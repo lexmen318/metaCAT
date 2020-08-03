@@ -1,12 +1,10 @@
 import axios from 'axios'
 
-// let API_LINK_BASE = 'https://127.0.0.1:5013'
 let API_LINK_BASE = ''
 
 var backend = {
   data () {
     return {
-      // uploadBatchUrl: `http://aarcshelf-dev.bpit.huawei.com:5011/upload_batch_allocation`
       uploadBatchUrl: API_LINK_BASE + `/upload_batch_allocation`
     }
   },
