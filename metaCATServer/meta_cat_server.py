@@ -53,8 +53,6 @@ register_blueprints(app)
     在flask当中使用 session 时，必须要做一个配置、
     即 flask的session中需要用到的秘钥字符串，可以是任意值
     flask默认把数据存放到了cookie中
-    http://aarcshelf-dev.bpit.huawei.com:5011/session
-    http://aarcshelf-dev.bpit.huawei.com:5011/sessionShow
 """
 app.config["SECRET_KEY"] = 'g1=*w2%_vo5v7d&vec$@!0z@wpxd@3na*z-*c)*89u*8re2*2@'
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)  # 配置过期时间
