@@ -44,11 +44,12 @@ def handle_data_convert_operations():
             {
                 "title": gettext(u'funcConsistencyCheck'),
                 "url": "/sys_admin/consistency_check"
-            },
-            {
-                "title": gettext(u'funcUpdateParaphrasingRealValue'),
-                "url": "/sys_admin/update_paraphrasing_real_value"
             }
+            #,
+            #{
+            #    "title": gettext(u'funcUpdateParaphrasingRealValue'),
+            #    "url": "/sys_admin/update_paraphrasing_real_value"
+            #}
             # , {
             #     "title": "示例更新1",
             #     "url": "/sys_admin/data_convert_from_v0_to_v1"
