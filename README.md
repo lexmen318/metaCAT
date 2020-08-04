@@ -57,6 +57,20 @@ db = client['metacat']
 db.authenticate('metacat', 'metacat')
 ```
 
+### Front end compiling 
+
+User can compile frontend by following scripts:
+```
+(metaCATServer)$ cd frontEnd/
+(metaCATServer)$ npm install
+(metaCATServer)$ npm run build
+```
+"dist" folder will be created, 
+
+
+
+If npm running environments not installed, please unzip dist.zip, and perform the above operation.
+
 
 ### System Startup 
 
