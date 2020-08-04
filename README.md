@@ -12,10 +12,10 @@ metaCAT is an open-source web-based annotation tool designed specifically for de
 We've released a short video clip for metaCAT at https://youtu.be/07_PWD4_c4E.
 
 ## User Journey
-![metaCAT](images/new_logo_cap.png)
+![user_journey](images/user_journey.png)
 
 ## Main GUI
-![user_journey](images/user_journey.png)
+![main_interface](images/main_interface.png)
 
 ## Metadata
 Metadata is a segment of data used to describe the dialogue domain, intention, and slot annotation system. It is stored in JSON format and determines the optional service domains on the user side and system side, slots in each service domain, valid slot-values in each slot, and allowed intents.
