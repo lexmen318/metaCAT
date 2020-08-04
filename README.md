@@ -67,7 +67,7 @@ User can compile frontend by following scripts:
 ```
 When "dist" folder is created, please do as following to perform the operations
 
-![frontend_compile](images/frontend_compile.png)
+![frontend_compile](images/frontend_compile.png =200)
 
 If npm running environments not installed, please unzip dist.zip, and perform the above operations.
 
