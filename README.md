@@ -65,11 +65,11 @@ User can compile frontend by following scripts:
 (metaCATServer)$ npm install
 (metaCATServer)$ npm run build
 ```
-"dist" folder will be created, 
+When "dist" folder is created, please do as following to perform the operations
 
+![frontend_compile](images/frontend_compile.png)
 
-
-If npm running environments not installed, please unzip dist.zip, and perform the above operation.
+If npm running environments not installed, please unzip dist.zip, and perform the above operations.
 
 
 ### System Startup 
