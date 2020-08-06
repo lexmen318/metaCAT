@@ -17,7 +17,3 @@ db.getSiblingDB('metacat')['dialogue_paraphrasing'].insert(d);
 db.members.find().forEach(function(d){
 db.getSiblingDB('metacat')['members'].insert(d);
 })
-
-db.members.find().forEach(function(d){
-db.getSiblingDB('metacat')['members'].insert(d);
-})
