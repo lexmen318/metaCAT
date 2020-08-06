@@ -2,7 +2,7 @@ db.batchStatus.find().forEach(function(d){
 db.getSiblingDB('metacat')['batchStatus'].insert(d);
 })
 
-db.big_config.find().forEach(function(d){
+db.cat_config.find().forEach(function(d){
 db.getSiblingDB('metacat')['cat_config'].insert(d);
 })
 
