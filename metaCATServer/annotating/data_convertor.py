@@ -386,6 +386,8 @@ class DataConvertor(object):
             dst_start = word_index = 0
             while dst_start < sp_st and word_index < len(words):
                 dst_start += len(words[word_index])
+                while re.match('[\s]', dialog_text[dst_start:dst_start+1]):
+                    dst_start += 1
                 word_index += 1
             return word_index, word_index + len(slot_words) - 1
 
