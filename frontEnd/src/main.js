@@ -4,7 +4,6 @@ import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 import App from './App'
 import router from './router'
-import axios from 'axios'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/resetCss.css'
@@ -20,7 +19,6 @@ Vue.mixin(backend)
 Vue.use(ElementUI)
 Vue.use(VueI18n)
 Vue.prototype.$Store = Store
-Vue.prototype.$axios = axios
 Vue.prototype.$alertMessage = alertMessage.install
 
 Vue.config.productionTip = false
@@ -37,9 +35,8 @@ const i18n = new VueI18n({
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
 	router,
+	Store,
 	i18n,
-  components: { App },
-  template: '<App/>'
-})
+	render: h => h(App)
+  }).$mount("#app")
