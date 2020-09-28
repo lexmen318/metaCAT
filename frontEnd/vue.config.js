@@ -17,5 +17,7 @@ module.exports = {
         },
         host: 'localhost',
     },
-    lintOnSave: false
+    lintOnSave: false,
+    // publicPath :process.env.NODE_ENV === 'production' ? './static' : '/'
+    publicPath: './static'
 }
