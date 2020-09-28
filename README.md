@@ -114,6 +114,8 @@ def handle_audio_recognize():
     # recognizer = ASRRecognizer()  # Initialize the recognizer. 
     # audio_content = recognizer.audio_recognize(audio)  # Send an identification request. 
 
+    # ASR by webService
+    # ASR_RECOGNIZE_URL = 'http://127.0.0.1:5011/api/service/asr/audio_recognize'
     # headers = {'Content-Type': 'application/json'}
     # data = json.dumps({'audio_data': audio})
     # res = requests.post(ASR_RECOGNIZE_URL, headers=headers, data=data)
