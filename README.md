@@ -11,7 +11,7 @@ metaCAT extends LIDA by contributing additional key useful features including:
 2. real-time annotation constraint-checking to ensure data quality;
 3. ASR paraphrasing to speed up an annotator's data input process and increase the diversity of utterances.
 
-We've released a short video clip for metaCAT at https://youtu.be/07_PWD4_c4E.
+We released a short video clip for metaCAT at https://youtu.be/07_PWD4_c4E and our submission to AACL-IJCNLP2020 as DEMO paper has been accepted: http://aacl2020.org/program/accepted/
 
 ## User Journey
 ![user_journey](images/user_journey.png)
