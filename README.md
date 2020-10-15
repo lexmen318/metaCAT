@@ -7,7 +7,7 @@ metaCAT is an open-source web-based annotation tool designed specifically for de
 metaCAT is developed by Huawei AI Application Research Center.
 metaCAT extends LIDA by contributing additional key useful features including:
 
-1. comprehensive metadata annotation coverage to the domain, intent and span information w.r.t. each dialogue turn;
+1. comprehensive metadata annotation coverage to the domain, intent, slot and span information w.r.t. each dialogue turn;
 2. real-time annotation constraint-checking to ensure data quality;
 3. ASR paraphrasing to speed up an annotator's data input process and increase the diversity of utterances.
 
