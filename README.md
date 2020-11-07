@@ -1,3 +1,5 @@
+(If you can not see following images, please just download the zip file of the github project and find the images inside.)
+
 ![metaCAT](images/new_logo_cap.png)
 
 # metaCAT: A Metadata-based Task-oriented Chatbot Annotation Tool
@@ -17,8 +19,6 @@ Using metaCAT and some rule-based data cleaning works, we've upgrade the famouse
 https://arxiv.org/abs/2010.05594 and the dataset from https://github.com/lexmen318/MultiWOZ_2.3.
 
 ## User Journey
-If you can not see following images, please just download the zip file of the github project and find the images inside.
-
 ![user_journey](images/user_journey.png)
 
 ## Main GUI
