@@ -13,8 +13,8 @@ metaCAT extends LIDA by contributing additional key useful features including:
 
 We released a short video clip for metaCAT at https://youtu.be/07_PWD4_c4E and our submission to AACL-IJCNLP2020 as DEMO paper has been accepted: http://aacl2020.org/program/accepted/
 
-Using metaCAT and some rule-based data cleaning works, we've upgrade the famouse goal-oriented dialogue dataset MultiWOZ to 2.3 versino. Please download paper from 
-https://arxiv.org/abs/2010.05594 and the dataset from https://github.com/lexmen318/MultiWOZ_2.3 .
+Using metaCAT and some rule-based data cleaning works, we've upgrade the famouse goal-oriented dialogue dataset MultiWOZ to 2.3 version. Please download paper from 
+https://arxiv.org/abs/2010.05594 and the dataset from https://github.com/lexmen318/MultiWOZ_2.3.
 
 ## User Journey
 If you can not see following images, please just download the zip file of the github project and find the images inside.
